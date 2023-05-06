@@ -1,0 +1,40 @@
+{
+    "Configuration": {
+        "FunctionName": "wani_function",
+        "FunctionArn": "arn:aws:lambda:ap-northeast-1:839865256996:function:wani_function",
+        "Runtime": "dotnet6",
+        "Role": "arn:aws:iam::839865256996:role/service-role/wani_function-role-zhw0ck9t",
+        "Handler": "WaniCTF_Lambda::WaniCTF_Lambda.Function::LoginWani",
+        "CodeSize": 960588,
+        "Description": "",
+        "Timeout": 15,
+        "MemorySize": 512,
+        "LastModified": "2023-05-01T14:21:15.000+0000",
+        "CodeSha256": "Gfkg4Q7OrMA+DPsFg6zR+gZXezeG8KEMe/8w8BLmRSA=",
+        "Version": "$LATEST",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "0a4cde2c-6dbb-4240-9332-2f5611256deb",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-northeast-1::runtime:45f8a281bf9e15e1f608cba66fecfeca659ebca96fcdfc615f54dcf70554a9e5"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-ne-1-tasks.s3.ap-northeast-1.amazonaws.com/snapshots/839865256996/wani_function-df5e5803-a6c5-4483-b58a-a296b73218a3?versionId=JWFcoHVwceWBtheBA6f9sJoChpeeeHF.&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAkaDmFwLW5vcnRoZWFzdC0xIkgwRgIhAJQAOJH8NOxjreiE913Sg4bQDq%2F%2BQnSJUe0OjvbeFcZNAiEAi7eqY5BX%2F2YlauF88zcG8Mc8XWPCM9g1O%2FNcz8lh7DAqwAUIIRADGgw5MTk5ODA5MjUxMzkiDF2vB3WSufb2mZ1BzyqdBZp2FSrerL00habXJcTT43B5HjKIuFMxfYMOL8MKWURQPvxU0aYGcdywlAgq61WbXHEYXO%2Bx3lLt3T6dvBJj5rHJeqLKuBgznwIzLCL7T%2F4mIh%2FRE4hTZ8eALviqh3pyzLHjzQGh6NqbbznXcp%2B3pM712HcYGDnRD1RKdfbmxywu8B9oeLDJbjlPMazdlOEld6UZHra8Q5DfD2Bde4VBqgf3EBnQMtoAC%2BYmSRJ1sF2uXt1istgZDoCpeHf5wDPFZ898%2F3i9l6%2F8qk4qo1ClHkDyilnI%2FneGgL%2FHbFCDT8CLGTaNOu9lL3MdSExrGcn%2BZE0bkD7WCZV6lyDIJZahghR4Rbq%2FVdHW51vTC6%2FpK0vF6zLli9kuPOVVplC58rkPr7U5FhNQQKRUPUlX2v0xijmDOzLfrPpECDww6JJnL57VkNy1xRk4J%2FharClWcNwGcr77eJDXSH6%2B8T0sliUg%2F1hD5JhZ9GjhJnHhQn1NCYlBjIi3H5mIxiHleWvgGdY0%2Fmec6B2vQLGVDVS6F%2B7mwdQwFtL82%2BHJpeHutBpRaXa476igam%2B%2Fdls2BKdaLKJZG8gMSnUlSAzpmVRJw20C6fiv5aPDvqTZDvwemMmC94hKptt3nSSXRIPqPh9BR4xx58gEFPqLM%2ByfB7mOoYLHTWD9c2NIG8uOVzswRrSjCONhKPos5pbe67KTCAFWP8ENJyev4GhWkpRW4y3jcD2f%2B1j96fY9xdMJXsVDCQarGaRDPoNf0vG%2BsUqCT%2BhmVIoyRIzUU03KXVVsMEKxJSynG77G6FFBbHlwhpe2p1uMrGNflpQGyhhje9xAJ%2F1h6K5SsAu5umxqwe05%2F0po1CWFxeA52TYWLZAKV%2FwX%2BlL1zsjhyLzJSI8vTs6z8Thi7TCjydaiBjqwAQJ3U9cVKQxMokFiBXIZVOHR3MLPCWHeJDlnIGIYO0%2FIuaV1Syq7MCXgjrrRrmFb2crOqsfI3A7QEdHRLFP3FFg39KSwYmQCS91REgdr6Xe9G03epCX1rO5iQpm7GibaWWPIwTIfe8BJCZ5cTTDGCu%2Fyx8fUK8P9pnwnR2tREy41%2BL%2B%2BFiAVnY7a6o5jGR8W4wiFwOtaMB04A6QiA4egah70x82hs2FcXfFzaf%2BTelis&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230506T014102Z&X-Amz-SignedHeaders=host&X-Amz-Expires=599&X-Amz-Credential=ASIA5MMZC4DJRNMQPN7X%2F20230506%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=2459f39f8cfc5af6b0f76623483137bef9425307bb374d72aa0d5fa7dda133d0"
+    }
+}

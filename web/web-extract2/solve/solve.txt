@@ -1,0 +1,15 @@
+extract1にファイルのパスをパラメータとしてそのまま渡すのではなく、ファイルタイプを渡してサーバサイドでパスを処理する形に変更されたらしい。
+
+xmlを読み込んでいるのでLFI→XXEかな？という単純な発想
+駄目だったパターン
+・word/document.xmlに対するXXE
+・xl/sharedStrings.xmlに対するXXE
+・ppt/slides/slide1.xmlに対するXXE
+参考：https://medium.com/@x3rz/hackpack-ctf-2021-indead-v2-df9ddb4b4083
+
+実際はシンボリックリンクをLFIするというもの。
+mkdir -p word/; ln -s /flag word/document.xml; zip -ry a.zip word/document.xml
+※実際に読み込んでいるのは対象のxmlの中の文字のためほかのファイルは不要
+
+https://st98.github.io/diary/posts/2019-08-16-interkosenctf.html#image-extractor-434
+

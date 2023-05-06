@@ -1,0 +1,6 @@
+https://github.com/satoki/ctf_writeups/tree/master/WaniCTF_2023/certified1
+https://github.com/Sybil-Scan/imagemagick-lfi-poc
+
+ImageMagick LFI PoC [CVE-2022-44268]
+
+PoCの刺さり方が鮮やかすぎて思わず紹介したくなってしまった．．．

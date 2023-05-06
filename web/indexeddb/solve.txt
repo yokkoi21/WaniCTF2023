@@ -1,0 +1,2 @@
+chrome devtool の[application]タブStorageなどのページに行ける
+IndexedDBの中のtestDBの中のtestObjectStoreの中にフラグがある．
